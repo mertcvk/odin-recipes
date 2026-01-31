@@ -1,15 +1,39 @@
-* {
+body {
     box-sizing: border-box;
-    background-color: #FFFDF5;
+    background-color: #f5ebc4;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.menu {
-    font-size: 15px;
-    display: inline;
+.menucard {
+    display: inline-block;
+    background-color: rgba(164, 82, 246, 0.2);
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+img {
+    display: block;
+    margin: 30px auto 15px auto;
+}
+div a {
+    display: block;
+    text-align: center;
+    color: green;
+}
+a:link {
+  text-decoration: none;
 }
 
-.item {
-    display: inline;
-    margin: 0 15px;
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
