@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    background-color: #FFFDF5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    font-size: 15px;
+    display: inline;
+}
+
+.item {
+    display: inline;
+    margin: 0 15px;
+}
